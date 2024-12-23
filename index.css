@@ -1,0 +1,138 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(153, 75, 81, 0.5);
+    z-index: 2;
+}
+#fundo{
+    position: absolute;
+    z-index: -100;
+    width: 100%;
+    height: 40%;
+}
+
+
+/**HEADER**/
+
+header{
+    width: 100%;
+    height: 200px;
+    background-image: url(./imagens_atividade7/guitarras_header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+nav{
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    padding: 15px;
+}
+
+
+/**PRIMEIRA SECAO TXT E IMAGEM**/
+
+#se1{
+    background-color: #ba1211;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#cx1{
+    width: 700px;
+    height: 400px;
+    background-color: #ba8a8a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#cx1 h1{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#cx1 p{
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#loja{
+    margin-left: 50px;
+    width: 700px;
+    height: 370px;
+}
+
+/**SEGUNDA SECAO PRODUTOS**/
+#se2{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#se2 img{
+    height: 200px;
+    width: 300px;
+}
+#product{
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#preco{
+    color: red;
+   font-weight: bolder;
+   
+}
+/**TERCEIRA SECAO LOCALIZAÇÃO**/
+#se3{
+    background-color: #ba5511;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+}
